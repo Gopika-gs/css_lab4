@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dropdown">
+    show <select name="entries" id="entries">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option> 
+            <option value="5" selected>5</option>            
+        </select> entries
+    </div>
+    <div class="heading">
+        <h1>Customer <b>Details</b></h1>
+    </div>
+    <div class="search">
+        <input type="text" name="text" class="search" placeholder="Search">
+    </div>
+    <div>
+        <table id="customer_detail">
+            <tr>
+                <th>#</th>
+                <th>Name<i class="fa fa-sort" id="sort" aria-hidden="true"></i></th>
+                <th>Address</th>
+                <th>City<i class="fa fa-sort" id="sort" aria-hidden="true"></i></th>
+                <th>Pincode</th>
+                <th>Country<i class="fa fa-sort" id="sort" aria-hidden="true"></i></th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Thomas Hardy</td>
+                <td>89 Chiarsco Rd.</td>
+                <td>Portland</td>
+                <td>91219</td>
+                <td>USA</td>
+                <td><i class="fa fa-eye " id="eye" aria-hidden="true"></i><i class="fa fa-pencil" id="pencil" aria-hidden="true"></i><i class="fa fa-trash" id="trash" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria Anders</td>
+                <td>Obere Str.57</td>
+                <td>Berlin</td>
+                <td>12209</td>
+                <td>Germany</td>
+                <td><i class="fa fa-eye " id="eye" aria-hidden="true"></i><i class="fa fa-pencil" id="pencil" aria-hidden="true"></i><i class="fa fa-trash" id="trash" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                    <td>Fran Wilson</td>
+                    <td>C/Araquil,67</td>
+                    <td>Madrid</td>
+                    <td>28023</td>
+                    <td>Spain</td>
+                    <td><i class="fa fa-eye " id="eye" aria-hidden="true"></i><i class="fa fa-pencil" id="pencil" aria-hidden="true"></i><i class="fa fa-trash" id="trash" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dominic Perrier</td>
+                <td>25,rue Lauriston</td>
+                <td>Paris</td>
+                <td>75016</td>
+                <td>France</td>
+                <td><i class="fa fa-eye " id="eye" aria-hidden="true"></i><i class="fa fa-pencil" id="pencil" aria-hidden="true"></i><i class="fa fa-trash" id="trash" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Martin Blank</td>
+                <td>Via Monteblanco 34</td>
+                <td>Turin</td>
+                <td>10100</td>
+                <td>Italy</td>
+                <td><i class="fa fa-eye " id="eye" aria-hidden="true"></i><i class="fa fa-pencil" id="pencil" aria-hidden="true"></i><i class="fa fa-trash" id="trash" aria-hidden="true"></i></td>
+            </tr>
+        </table>
+    </div>
+    <div class="bottom">
+        <h4>Showing <b> 5 </b> out of <b>25</b> entries</h4>
+    </div>
+    <div class="pagination">
+        <a href="#" class="button">Previous</a>
+        <a href="#" class="digit">1</a>
+        <a  href="#" class="digit">2</a>
+        <a class="active" href="#" class="digit" >3</a>
+        <a href="#" class="digit">4</a>
+        <a href="#" class="digit">5</a>
+        <a href="#" class="digit">6</a>
+        <a href="#" class="button">Next</a>
+    </div>
+</body>
+</html>
